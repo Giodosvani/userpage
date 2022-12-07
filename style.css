@@ -34,15 +34,16 @@ aside {
 
 #card h1 {
     margin: 0px 0px 20px 0px;
+    font-size: 1em;
 }
 
 #card input {
-    padding: 5px;
+    padding: 10px;
     margin: 0px 0px 20px 0px;
     border-width: 0px 0px 1px 0px;
     border-color: black; 
+    border-radius: 5px 5px 5px 5px;
     transition: .2s;
-    width: 100%;
 }
 
 #card input:focus {
@@ -69,8 +70,13 @@ aside {
     background-color: rgb(111, 111, 111);
 }
 
+#divisor {
+    margin-top: 60px;
+    border: 1px solid gray;
+}
 
 p {
     text-align: center;
+    margin-bottom: 10px;
 }
 
