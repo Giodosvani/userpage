@@ -62,7 +62,7 @@ aside {
     transition: .2s;
 }
 
-.btn a {
+ a {
     text-decoration: none;
     color: black;
 }
