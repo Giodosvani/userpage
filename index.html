@@ -8,27 +8,18 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <main id="card">
-        <h1>Bom te ver de novo.</h1>
-        <div id="info">
-            <input type="email" placeholder="Example@gmail.com">
-            <br>
-            <input type="password" placeholder="Senha">
-        </div>
-        <div class="btn">   
-            <a href="#" id="loginbtn">Login</a>
-        </div>
+    <div id="card">
+        <form action="">
+            <h1>Good to see you again.</h1>
+            <div><input type="text" name="name" id="iname" placeholder="Username" required autocomplete="username"></div>
 
-        <div id="divisor"></div>
-        <aside>
-            <p>Primeira vez aqui?</p>
-            <a href="signup.html"> 
-                <div class="btn">
-                
-                Inscreva-se!
-            </div></a>
+            <div><input type="password" name="senha" id="isenha" placeholder="Password" required autocomplete="current-password"></div>
 
-        </aside>
-    </main>
+            <div><input type="submit" value="Log in" id="loginbtn"></div>
+        </form>
+        <div id="line"></div>
+            <p>Are you new around here?</p>
+            <a href="signup.html">Sign Up</a>
+    </div>
 </body>
 </html>

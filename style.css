@@ -5,7 +5,6 @@
 * {
     padding: 0px;
     margin: 0px;
-    overflow: hidden;
 }
 
 body {
@@ -14,16 +13,11 @@ body {
     font-family: 'Ubuntu', sans-serif;
 }
 
-aside {
-    padding:20px;
-}
-
 #card {
     background-color: white;
     width: fit-content;
-    padding: 50px;
+    padding: 40px;
     border-radius: 20px;
-
     box-shadow: 2px 5px 9px #0000006e;
 
     position: absolute;
@@ -33,51 +27,54 @@ aside {
 }
 
 #card h1 {
-    margin: 0px 0px 20px 0px;
-    font-size: 1em;
+    margin-bottom: 20px;
 }
 
-#card input {
-    padding: 10px;
-    margin: 0px 0px 20px 0px;
+h1 {
+    font-size: 1.5em;
+}
+
+input {
+    padding: 20px 10px;
+    border-radius: 10px;
+    margin: 10px 0px;
     border-width: 0px 0px 1px 0px;
-    border-color: black; 
-    border-radius: 5px 5px 5px 5px;
+    border-color: black;
     transition: .2s;
 }
 
-#card input:focus {
+input:focus {
     outline: none;
-    background-color: rgb(89, 89, 89);
+    background-color: #464646;
     color: white;
 }
 
-.btn {
-    margin: auto;
-    margin-top: 5px;
-    width: fit-content;
-    padding: 10px;
-    border-radius: 5px;
-    box-shadow: 2px 5px 9px #00000032;
-    transition: .2s;
+#loginbtn:hover {
+    background-color: #464646;
 }
 
- a {
-    text-decoration: none;
-    color: black;
-}
-
-.btn:hover {
-    background-color: rgb(111, 111, 111);
-}
-
-#divisor {
-    margin-top: 60px;
-    border: 1px solid gray;
+#line {
+    border: 1px solid black;
+    margin-top: 20px;
 }
 
 p {
-    text-align: center;
-    margin-bottom: 10px;
+    margin: 20px 0px;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+    margin-top: 90px;
+    padding: 15px;
+    border: solid black;
+    border-width: 0px 0px 1px 0px;
+    border-radius: 10px;
+    transition: .2s;
+}
+
+a:hover {
+    text-decoration: underline;
+    background-color: #464646;
+    font-weight: bolder;
+}
